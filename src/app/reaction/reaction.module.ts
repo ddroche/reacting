@@ -6,6 +6,9 @@ import { ReactionWrapperComponent } from './reaction-wrapper/reaction-wrapper.co
   declarations: [ReactionWrapperComponent],
   imports: [
     CommonModule
+  ],
+  exports: [
+    ReactionWrapperComponent
   ]
 })
 export class ReactionModule { }
