@@ -1,5 +1,25 @@
 # Reacting
 
+This project shows how to render a React app within an Angular app.
+
+## Typescript
+
+In order for this to compile properly, the `JSX` flag must be set to react
+
+```
+"jsx": "react"
+```
+
+## Reference
+
+This projects follows the general practice described within an article written by [GoodData.UI](https://sdk.gooddata.com/gooddata-ui/docs/4.1.1/ht_use_react_component_in_angular_2.x.html).
+
+## Additional Considerations
+
+This project does not implement any ways for data to pass between the Angular app and the React app.  That will be left up to any future developers.
+
+# Angular Wrapper
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
 
 ## Development server
