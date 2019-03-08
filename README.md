@@ -8,7 +8,7 @@ Run `npm run local` to install dependencies and run the angular server.  Then na
 
 ## Typescript
 
-In order for this to compile properly, the `JSX` flag must be set to react
+In order for this to compile properly, the `JSX` flag must be set to `"react"` in the `tsconfig.json` file.
 
 ```
 "jsx": "react"
