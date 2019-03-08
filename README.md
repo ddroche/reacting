@@ -2,6 +2,10 @@
 
 This project shows how to render a React app within an Angular app.
 
+## Running
+
+Run `npm run local` to install dependencies and run the angular server.  Then navigate to `http://localhost:4200`.
+
 ## Typescript
 
 In order for this to compile properly, the `JSX` flag must be set to react
